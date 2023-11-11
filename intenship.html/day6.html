@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <h1>hello world</h1> -->
+   <!-- <p>hey how are you</p>  -->
+   <!-- <h1 id="one">hello world</h1> -->
+   <!-- <button onclick="fun1()">pass</button>  -->
+   <!-- <p id="two">my name is anushree</p>  -->
+   <!-- <p id="hi">i am studying in <b>biet</b></p> -->
+   <h1 style="background-color: aqua;">friends</h1>
+   <div id="para" style="flex-direction: column;background-color: pink;display: flex;justify-content: center;"></div>
+
+</body>
+<script>
+    
+
+//    let a=document.getElementById("one").textContent
+//   const elem=document. getElementById("one").innerHTML
+//   const elem1=document. getElementById("one").value
+//    console.log(a)
+//    console.log(elem)
+//    console.log(elem1)
+
+// function fun1(){
+// let s=document.getElementById("one").textContent
+// document.getElementById("two").textContent=s
+// }
+
+// let s=document.getElementById("one").innerHTML
+// document.getElementById("two").innreHTML=s
+
+
+// let s=document.getElementById("hi").innerHTML
+//  document.getElementById("two").innerHTML="u are from which clg <br>"+s;
+
+
+ let arr=["anu","tanu","shree","sanu","janu","pallu","megha","deepa"]
+ let a=arr.length
+ let elem="";
+ console.log(elem);
+ "<ul>"
+ for(let i=0;i<a;i++){
+   // document.write(arr[i])
+ elem+= "<li>"+arr[i]+"</li>"
+
+ }
+"</ul>"
+document.getElementById("para").innerHTML=elem;
+
+</script>
+</html>
+
+<!-- dom document obj model
+*text content
+*innerhtml
+*value
+dom methods
+get elementbyid
+getelementbyclassname
+getelementtagname
+
+**create an array in javascript it should contain values in it
+-->

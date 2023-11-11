@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="d2.css">
+</head>
+<style>
+    h1{
+        background-color: hsl(37, 100%, 59%);
+    }
+    table{
+       
+background-color:palevioletred;
+font-size: medium;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: oblique;
+font-weight: 200;
+    }
+    th{
+        background-color: brown;
+    }
+</style>
+<body>
+    <table border="14" align="center">
+<colgroup>
+    <col span="1" style="background-color:blue ">
+    <col span="3" style="background-color:#77ff00 ">
+
+</colgroup>
+
+    
+     <h1 class =clothes> student details</h1>
+        <tr>
+            <th>name</th>
+            <th>roll no</th>
+            <th>sec</th>
+            <th>result</th>
+        </tr>
+        <tr>
+            <td>anushree</td>
+            <td>20</td>
+            <td>A</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>janu</td>
+            <td>90</td>
+            <td>A</td>
+            <td>88</td>
+        </tr>
+    </table>
+    <table border="10" align="center">
+        <tr>
+            <th colspan="2">name</th>
+            <th>usn</th>
+            </tr>
+        <tr>
+            <td>janu</td>
+            <td>sanu</td>
+            <td>56</td>
+        </tr>
+        
+    </table><hr>
+    <h2>This is my Family</h2>
+    
+    <div id="above">KUPPAST</div>
+    <p>we stay in bagalkot</p>
+    <ol type="I">
+        <li>basavaraj</li>
+        <ul type="square">
+            <li>
+                deepa
+            </li>
+            <li>megha</li>
+        </ul>
+        <li>mangala</li>
+        <ul type="disc">
+            <li>pallu</li>
+            <li>tanu</li>
+        </ul>
+        
+    </ol>
+    <ol type="I"start="3">
+        <li>priya</li>
+        <li>
+            preethi
+        </li>
+        <li>shree</li>
+    </ol>
+    <div id="two">
+        <div>two</div>
+        </div>
+        <form>
+            <label for ="name:">user name:</label>
+            <input type="text"placeholder="enter the name"required><br><br>
+            <label for ="password:">user password:</label>
+                <input type="password"placeholder="enter the password"required><br><br>
+                <label for ="email:">user email:</label>
+                    <input title="you should fill this" type="email"placeholder="enter the email" required><br><br>
+                    <label for ="phone number:">user phone number:</label>
+                    <input type=" number"placeholder="enter the phone number"required><br><br>
+                  <label for =""  >gender</label>
+            <input type="radio" name="a">male
+            <input type="radio" name="a">female<br><br>
+            
+            <label for =""  >skill set</label>
+            <input type="checkbox">java
+            <input type="checkbox">css
+            <input type="checkbox">html
+            <input type="checkbox">py<br>
+            <input type="file"><br><br>
+            <input type="date"><br><br>
+            <label>country</label>
+            <select>
+                <option> india</option>
+                <option> usa</option>
+                <option> china</option>
+            </select><br><br>                               
+            <!-- ^ match the bigining
+            $ match end
+            [] char or num
+            {} set min & max
+            + one or more-->
+            <label>date and time</label>
+            <input type="datetime-local"><br><br>
+            <label>range</label>
+<input type="range"min="1"max="50" ><br><br>
+                    <button>submit</button><br><br>
+            <textarea></textarea>
+        </form>
+        <div id="one">this is padding 1</div>
+        <div id="tw">this is padding 2</div>
+        <div id="outer">outer
+            <div id="inner">inner</div>
+        </div>
+        <div id="back">outer
+            <div id="frount">inner</div>
+        </div>
+</body>
+</html>

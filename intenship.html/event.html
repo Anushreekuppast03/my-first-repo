@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="1" type="text">
+    <button id=click >button</button>
+    <input  id="2" type="text" readonly>
+   
+</body>
+<script>
+
+    
+   
+        document.getElementById("click").addEventListener("click",function pass(){
+       let x= document.getElementById("1").value;
+       document.getElementById("2").value=x;
+        
+            })
+
+    
+</script>
+</html>
+<!-- asychronous javascript & xml refer to a group of technology that are used to develop webapplication
+by combining this technology web pages appear more responsive since small packet of data b/w server & web pages are not reloaded each time that a user makes any change in the input
+-->
