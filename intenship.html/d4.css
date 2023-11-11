@@ -1,0 +1,68 @@
+#fcontainer{
+    height:45vh;
+   width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    border:  2px solid black;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+}
+#fitem{
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 12px;
+    height: 122px;
+    width: 122px;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 50%;
+    margin-top: 50%;
+    /* transition-property: all; */
+    /* transition-duration: 100ms; */
+    /* transition-delay: 10ms; */
+    transition-timing-function: ease-out;
+    transition: all 2s ease 1s;
+}
+div:hover{
+    background-color: blue;
+    height: 65px;
+    width: 65px;
+    /* transform: translate(30px,30px); */
+     /* transform: translateY(500px)  */
+    /* transform:translate3d(50px) */
+    /* transform: scale(0.5); */
+    /* transform: scaleX(50%); */
+    /* transform: rotate(45deg) */
+    /* transform: rotateX(90deg); */
+    /* transform: rotateZ(90deg); */
+    /* transform: rotate3d(45deg); */
+/* transform: skew(45deg); */
+
+
+
+
+}
+img{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 50%;
+    margin-top: 50%;
+     /* transition-property: all;  */
+     /* transition-duration: 100ms;  */
+     /* transition-delay: 10ms;  */
+    transition-timing-function: ease-out;
+    transition: all 2s ease 1s;
+}  
+img:hover{
+    background-color: blue;
+    height: 65px;
+    width: 65px;
+    transform: translate(30px,30px);
+}

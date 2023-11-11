@@ -1,0 +1,102 @@
+.clothes
+{
+    color:#ff0019;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:yellow;
+}
+h2{
+    text-align:center ;
+    text-decoration:underline wavy #ff00aa;
+    font-size: larger;
+    text-transform: uppercase;
+    font: weight 900px;
+    text-shadow:1px 1px white;
+}
+ol{
+    background-color: #ff9d7f;
+}
+li{
+    background-color: hwb(55 0% 0%);
+}
+ul{
+    background-color: #ffc400;
+}
+p{
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+div{
+    background-color: hsl(26, 100%, 50%);
+    height:50px;
+    width:100;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+}
+#two{
+    border-style: dotted;
+    height: 20px;
+    width:10px;
+    border-radius:50px;
+}
+#one{
+    height:10px ;
+    width: 12px;
+    border:  solid 2px red;
+  background-color: #e6b6ad;
+  padding-top: 60px;
+  padding-right: 70px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border:dotted;
+}
+#tw{
+    height:20px ;
+    width: 20px;
+    border:  solid 2px rgb(187, 0, 255);
+  background-color: hwb(78 68% 10%);
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
+}
+#outer{
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 100px;
+}
+#inner{
+    height: 50px;
+    width: 70px;
+    background-color: pink;
+    color: hsl(332, 100%, 97%);
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 100px;
+}
+#back{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 50px;
+    border: double;
+}
+#frount{
+    height: 100px;
+    width: 50%;
+    background-color: #ffc400;
+    font-size: 2em;
+}

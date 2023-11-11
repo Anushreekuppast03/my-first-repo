@@ -1,0 +1,24 @@
+div{
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    animation-name: anu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes anu{
+    /* 0% {background-color: aquamarine; width: 900px;} */
+    /* 25% {background-color: blanchedalmond;width: 900px} */
+    /* 50% {background-color: red;width: 900px} */
+    /* 100% {background-color: yellow;width: 900px} */
+    form{
+        background-color: blueviolet;
+        width: 90px;
+    }
+    to{
+        background-color: brown;
+        width: 90px;
+    }
+
+}

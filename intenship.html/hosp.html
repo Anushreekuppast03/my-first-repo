@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>prototype</h1>
+</body>
+<script>
+    function hospital(pname,id,roomno)
+    {
+        this.pname=pname;
+        this.id=id;
+        this.roomno=roomno;
+
+    }
+    let sd= new hospital("anu","020","23");
+    hospital.prototype.name1="tanu";
+    hospital.prototype.hospname="CG hospital";
+    console.log(sd.pname,sd.id,sd.roomno,sd.name1,sd.hospname)
+</script>
+</html>
